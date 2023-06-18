@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Buttplug" Version="3.0.0" />
+    <PackageReference Include="Buttplug.Client.Connectors.WebsocketConnector" Version="3.0.0" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
 </Project>

@@ -22,7 +22,13 @@ namespace tf2butt // Note: actual namespace depends on the project name.
 
         static void Main()
         {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
             Console.WriteLine("Starting tf2butt...");
+            
+        }
+        public void Init()
+        {
             ButtplugConnection connection = new ButtplugConnection();
 
             TFWatcher watcher = new TFWatcher();
